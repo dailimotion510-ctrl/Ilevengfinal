@@ -1,0 +1,5 @@
+telethon>=1.36
+cryptg
+requests
+requests-toolbelt
+python-dotenv

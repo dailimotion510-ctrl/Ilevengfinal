@@ -16,6 +16,13 @@
 Manda un video al bot -> nombre, tipología, géneros, año, descripción, portada -> **Publicar**.
 Comandos: `/panel`, `/canal`, `/tipologias`, `/cola`, `/cancelar`.
 
+## Autorrelleno con TMDB
+Para Película, Video y Documental, el bot ofrece buscar el título en **TMDB**
+(el mismo servicio que usa el panel de Picta) y rellena solo: nombre, sinopsis,
+año, país y portada (baja el póster). Género y director se intentan emparejar
+con los catálogos de Picta; si no encuentra coincidencia, no los llena.
+Puedes elegir "Llenar a mano" en cualquier momento de esa parte.
+
 ## Notas
 - Tu ID numérico lo ves escribiéndole al bot: si no estás en `ADMIN_IDS` te lo muestra.
 - Los videos se borran del disco al terminar la subida.
